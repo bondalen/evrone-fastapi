@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "evrone-fastapi"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "evrone_fastapi"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.1"
+pydantic-settings = "^2.6.0"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+httpx = "^0.27.2"
+mypy = "^1.13.0"
+pylint = "^3.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
