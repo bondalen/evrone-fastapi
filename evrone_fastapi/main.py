@@ -1,5 +1,5 @@
 """
-    Main
+    Main. Start app
 """
 from fastapi import FastAPI
 from pydantic import BaseModel
