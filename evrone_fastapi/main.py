@@ -1,5 +1,5 @@
 """
-    Main. Start app
+    Main. Start app evrone-fastapi
 """
 from fastapi import FastAPI
 from pydantic import BaseModel
